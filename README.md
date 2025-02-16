@@ -31,17 +31,29 @@ Run the Streamlit app with:
 _streamlit run app.py_
 
 ## How It Works
+
 **Select Start and Destination**: Choose intersections from dropdown menus.
+
 **Compute Shortest Path**: Click the button to calculate the optimal route.
+
 **Visualize**: The network graph highlights the computed shortest route in red.
 
 ## Technologies Used
+
 **Python**: Backend processing
+
 **NetworkX**: Graph processing and shortest path computation
+
 **Matplotlib**: Visualization
+
 **Streamlit**: Interactive UI
 
+
 ## Alternative Approaches Considered
+
 **Grid-Based Traffic Modeling**: Simplistic but inaccurate for irregular road layouts.
+
 **AI-Driven Optimization**: Computationally heavy but useful for real-time predictions.
+
 **Queue-Based Traffic Simulation**: Good for traffic flow prediction but lacks direct routing efficiency.
+
